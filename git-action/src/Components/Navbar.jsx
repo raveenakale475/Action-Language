@@ -42,7 +42,7 @@ let activeClassName = {
 const Navbar = () => {
   return (
     <nav className="">
-      <ul className="flex justify-center bg-cyan-100 p-5 gap-5">
+      <ul className="flex justify-center bg-black p-5 gap-5">
         {list.map(({ id, link, path }) => (
           <button key={id}>
             <NavLink

@@ -18,7 +18,7 @@ const Css = () => {
   return (
     <div>
       <div className="flex justify-center items-center">
-        {loading && <h1 className="justify-center">loading...........</h1>}
+        {loading && <h1 className="justify-center"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Loading_2.gif?20170503175831" alt="loading....." /></h1>}
       </div>
       <div>{error && <h1 className="justify-center">Server issue</h1>}</div>
       <div

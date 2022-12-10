@@ -5,12 +5,12 @@ const Card = ({ name, owner, language, stargazers_count, forks_count }) => {
   const src = owner.avatar_url;
   return (
     <div
-      className="flex flex-col items-center w-64 p-4 m-auto border-double border-4 border-sky-500"
-      
+      className="flex flex-col items-center w-64 p-4 m-auto border-4"
+      style={{"box-shadow": "rgba(0, 0, 0, 0.35) 0px 5px 15px"}}
     >
       <img src={src} alt={name} width="200" />
       <h4 className="font-bold text-xl">{name}</h4>
-      <h4 className="font-bold text-lg text-gray-500">
+      <h4 className="font-bold text-lg text-blue-500">
         {language ? language : "All"}
       </h4>
       <div className="flex gap-5">
